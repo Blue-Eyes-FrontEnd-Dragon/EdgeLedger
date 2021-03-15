@@ -1,4 +1,8 @@
 .hero {
+    background: url('/assets/images/home/showcase.jpg') no-repeat center center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
 
     .text {
         font-weight: 300;
@@ -8,4 +12,13 @@
     .text--sub-text {
         margin: 1rem 0;
     }    
+
+    .hero__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: inherit;
+    }
 }
