@@ -1,2 +1,9 @@
 @import './partials/base/reset';
+@import './partials/utils/colors';
 @import './partials/utils/variables';
+@import './partials/utils/imports';
+
+@import './partials/base/global';
+@import './partials/components/navbar';
+@import './partials/layout/header';
+
