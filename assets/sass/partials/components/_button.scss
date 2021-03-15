@@ -1,0 +1,32 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+.btn--primary {
+    background-color: $btn-primary-background;
+    color: $btn-primary-color;
+}
+
+.btn--secondary {
+    background-color: $btn-secondary-background;
+    color: $btn-secondary-color;
+}
+
+.btn--dark {
+    background: #333;
+    color: #fff;
+}
+
+.btn--light {
+    background: #f4f4f4;
+    color: #333;
+}
