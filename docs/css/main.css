@@ -107,6 +107,9 @@ img {
 .cases img:hover {
   opacity: .7; }
 
+.team .flex-items img {
+  border-radius: 50%; }
+
 .btn {
   cursor: pointer;
   display: inline-block;
