@@ -39,7 +39,8 @@ img {
   height: 7rem;
   position: fixed;
   top: 0;
-  padding: 0 3rem; }
+  padding: 0 3rem;
+  transition: 0.5s; }
 
 .top {
   background: transparent; }
