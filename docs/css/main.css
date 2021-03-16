@@ -104,6 +104,9 @@ img {
   border-radius: 50%;
   margin-bottom: 1.5rem; }
 
+.cases img:hover {
+  opacity: .7; }
+
 .btn {
   cursor: pointer;
   display: inline-block;
@@ -198,5 +201,33 @@ img {
 
 .flex-columns p {
   margin: 2rem 0; }
+
+.section-header {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.section-header h2 {
+  font-size: 4rem;
+  margin: 2rem 0;
+  font-weight: 200; }
+
+.section-padding {
+  padding: 2rem 2rem 4rem; }
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: 0 4px; }
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: .4rem; }
+
+.flex-columns .flex-reverse .row {
+  flex-direction: row-reverse; }
 
 /*# sourceMappingURL=main.css.map */
