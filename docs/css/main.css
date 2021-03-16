@@ -41,6 +41,9 @@ img {
   top: 0;
   padding: 0 3rem; }
 
+.top {
+  background: transparent; }
+
 .nav__nav-list {
   display: flex;
   align-items: center;
